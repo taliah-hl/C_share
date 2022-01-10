@@ -45,5 +45,22 @@ int main(void){
   
   qsort(arr, k, sizeof(object), compare); //sort arr裡的element
   //k is size of arr, object是arr裡的element的type
+  
+  /* 4) Bitwise Operation*/
+  //XOR ^
+  /* ^1 = XOR 1 = +2bit但唔進位
+  e.g. 1st bit = 0/1, 2nd bit = 2/3, 3rd bit = 4/5
+  1^1=0; 0^1=1; 
+  2^1=3; 3^1=2;
+  4^1=5; 5^1=4
+  通常用在把0/1反轉
+  */
+  int i=0;
+  int j=1;
+  printf("%d %d %d %d", i, i^1, j, j^1);
+  //will priint 0 1 1 0
+  
 
 }
+
+
