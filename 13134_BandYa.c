@@ -1,4 +1,4 @@
-/*  13134 - Band Ya Rou Ze   */
+/*  13134 - Band Ya Rou Ze - AC  */
 /* hw 1(week2)*/
 
 #include<stdio.h>
