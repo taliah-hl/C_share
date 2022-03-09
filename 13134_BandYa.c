@@ -178,7 +178,7 @@ void interchage(Node * ahead, Node * bhead, Node * atail, Node* btail)
         to_front(bhead, ahead, btail); //即b換去a
         return;
     }
-    else if(bhead->next == btail) //a是吉的,即a換去b
+    else if(bhead->next == btail) //b是吉的,即a換去b
     {
         to_front(ahead, bhead, atail);
         return;
