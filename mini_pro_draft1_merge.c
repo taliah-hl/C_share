@@ -335,7 +335,7 @@ BTNode *factor(void) {
     } 
         else if (match(LPAREN)) {
             advance();
-            retp->right = assign_expr();
+            retp = assign_expr();
             if (match(RPAREN))
                 advance();
             else
